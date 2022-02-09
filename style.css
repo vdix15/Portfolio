@@ -96,9 +96,11 @@ body{
     align-items:flex-start;
     flex-direction: column;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .edu{
     color: white;
+    font-size: 30px;
     
 }
 .edu ul{
@@ -107,12 +109,21 @@ body{
 }
 .lists li{
     background-color: #0a51cc;
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     border-radius: 10%;
    align-items: center;
    margin: 20px 10px;
    padding: 15px 20px;
    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+   font-size: large;
+   justify-content: space-evenly;
+   text-align: center;
     }
 
+.lists div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 400px;
+}
