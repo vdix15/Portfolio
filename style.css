@@ -142,7 +142,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     margin-right: 400px;
-    animation-duration: 2s;
+    animation-duration: 8s;
     animation-name: slidein;
     
 }
