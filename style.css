@@ -87,11 +87,13 @@ body{
 .abtext{
     align-items: flex-end;
     left:50px;
-    top:30px;
+    top:10px;
+   
     color: white;
     position: absolute;
-    transform: translate(50%, 50%);
+    transform: translate(30%, 20%);
     text-shadow: 2px 5px #653EA8;
+    font-size: xx-large;
 }
 .abdiv p, .abdiv h{
     align-items: center;
@@ -140,7 +142,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     margin-right: 400px;
-    animation-duration: 6s;
+    animation-duration: 2s;
     animation-name: slidein;
     
 }
@@ -158,9 +160,13 @@ body{
     height:100vh;
     flex-wrap: wrap;
     color: white;
-  
-    align-items: center;
+    
+    align-items:flex-start;
 }
+.pros h1{
+    font-size: 40px;
+}
+
 .pros .projcont{
     margin: 20px;
 }
@@ -168,16 +174,59 @@ body{
     text-decoration: none;
     text-shadow:2px 2px red;
 }
-.boxes{
+.projcont{
     display: flex;
+    padding: 15px 20px;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-flow: row wrap;
+    
+}
+.boxes{
     color: white;
     background-color: #653EA8;
     padding: 15px 20px;
     margin: 20px 20px;
-    height: 300%;
-    width: 100%;
-    justify-content: space-between;
+    width:45%;
+    box-shadow: 2px 2px black;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 2%;
+}
+.pros .boxes{
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.projcont h1, .projcont h2{
+    flex-direction: column;
 }
 
+.boxes:hover{
+    width: 46%;
 
-  
+}
+.empty{
+    width:100%; /*the width of the images in this example*/
+    height:100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+       
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+   
+}
+.formm{
+    margin: 20px 20px;
+    padding: 15px 20px;
+    
+}
