@@ -40,6 +40,7 @@ body{
     height: 60px;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: auto;
 }
 .logo{
     font-size: x-large;
