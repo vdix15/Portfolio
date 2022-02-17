@@ -10,6 +10,7 @@
 body{
     background-color: #a1c3ff;
     font-family: Poppins, sans-serif;
+
 }
 .cl1{
        text-decoration: none;
@@ -55,6 +56,7 @@ body{
     list-style-type:none;
     margin-right: 15px;
     font-weight: bold;
+    overflow: auto;
 }
 
 .navbar ul li{
@@ -254,6 +256,7 @@ body{
     padding: 15px 32px;
   text-align: center;
   font-weight: bolder;
+  display: inline-block;
 }
 .form .button:hover{
 box-shadow:  0 17px 50px 0 rgba(255, 5, 5, 0.5);
@@ -269,5 +272,15 @@ box-shadow:  0 17px 50px 0 rgba(255, 5, 5, 0.5);
     margin-right: 80px;
 }
 .fm{
-    margin-left: 80px;
+    margin-left: 50px;
+}
+.formpara{
+    display: inline-block;
+}
+.fm input{
+    margin-left: 20px;
+}
+.fm label{
+    display: inline-block;
+    vertical-align: top;
 }
