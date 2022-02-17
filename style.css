@@ -12,7 +12,7 @@ body{
     font-family: Poppins, sans-serif;
     overflow: auto;
     min-width: 100vh;
-}
+   }
 .cl1{
        text-decoration: none;
        color: white;
@@ -44,7 +44,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     overflow: auto;
-    min-width: 0;
+    min-width: 100vh;
 }
 .logo{
     font-size: x-large;
@@ -60,7 +60,7 @@ body{
     margin-right: 15px;
     font-weight: bold;
     overflow: auto;
-    min-width: 0;
+    
    
    
 }
@@ -80,7 +80,6 @@ body{
    font-size: x-large;
    flex-wrap: wrap;
    text-shadow: 2px 5px #5C1DC9;
-   
 }
 .abcont h1{
     color:white;
@@ -102,12 +101,13 @@ body{
     align-items: flex-end;
     left:50px;
     top:10px; 
-    
     color: white;
     position: absolute;
     transform: translate(30%, 20%);
     text-shadow: 2px 5px #653EA8;
     font-size: xx-large;
+    min-width: 0;
+    overflow: auto;
 }
 .abdiv p, .abdiv h{
     align-items: center;
