@@ -12,6 +12,7 @@ body{
     font-family: Poppins, sans-serif;
     overflow: auto;
     min-width: 100vh;
+    
    }
 .cl1{
        text-decoration: none;
@@ -23,10 +24,9 @@ body{
     font-size: 18px;
     transition:  font-size 0.1s;
     position: fixed;  
-    width: 100%; 
-    flex-wrap: wrap;
+    width: 100%;
+   
     overflow: auto;
-    min-width: 0;
 }
 .contnav a:hover{
     font-size: 20px;
@@ -41,10 +41,9 @@ body{
     margin: 0 auto;
     background-color: #3474e6;
     height: 60px;
-    flex-direction: row;
     flex-wrap: wrap;
     overflow: auto;
-    min-width: 100vh;
+    min-width: 0;
 }
 .logo{
     font-size: x-large;
@@ -125,7 +124,7 @@ body{
     flex-direction: column;
     margin: 20px;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .edu{
     color: white;
@@ -150,7 +149,10 @@ body{
    justify-content: space-evenly;
    text-align: center;
     }
-
+.lists li:hover{
+    width: 400px;
+    box-shadow: 0 3px 5px rgba(204, 10, 253, 0.884);
+}
 .lists div{
     display: flex;
     align-items: center;
