@@ -10,7 +10,7 @@
 body{
     background-color: #a1c3ff;
     font-family: Poppins, sans-serif;
-
+    overflow: auto;
 }
 .cl1{
        text-decoration: none;
@@ -25,6 +25,7 @@ body{
     width: 100%; 
     flex-wrap: wrap;
     overflow: auto;
+    min-width: 0;
 }
 .contnav a:hover{
     font-size: 20px;
