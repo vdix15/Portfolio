@@ -278,9 +278,11 @@ box-shadow:  0 17px 50px 0 rgba(255, 5, 5, 0.5);
     display: inline-block;
 }
 .fm input{
-    margin-left: 20px;
+    margin-left: 200px;
+   
 }
 .fm label{
     display: inline-block;
     vertical-align: top;
+    position:absolute;
 }
