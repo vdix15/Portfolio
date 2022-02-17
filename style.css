@@ -70,6 +70,7 @@ body{
    min-height: 100vh;
    font-size: x-large;
    flex-wrap: wrap;
+   text-shadow: 2px 5px #5C1DC9;
 }
 .abcont h1{
     color:white;
