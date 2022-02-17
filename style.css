@@ -11,6 +11,7 @@ body{
     background-color: #a1c3ff;
     font-family: Poppins, sans-serif;
     overflow: auto;
+    min-width: 100vh;
 }
 .cl1{
        text-decoration: none;
@@ -43,6 +44,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     overflow: auto;
+    min-width: 0;
 }
 .logo{
     font-size: x-large;
@@ -58,11 +60,15 @@ body{
     margin-right: 15px;
     font-weight: bold;
     overflow: auto;
+    min-width: 0;
+   
+   
 }
 
 .navbar ul li{
     margin-left: 30px;
-   
+    flex-wrap: wrap;
+    
 }
 .contnav div{
     margin-left: 50px;
@@ -74,6 +80,7 @@ body{
    font-size: x-large;
    flex-wrap: wrap;
    text-shadow: 2px 5px #5C1DC9;
+   
 }
 .abcont h1{
     color:white;
@@ -89,13 +96,13 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-   
+    overflow: auto;
 }
 .abtext{
     align-items: flex-end;
     left:50px;
-    top:10px;
-   
+    top:10px; 
+    
     color: white;
     position: absolute;
     transform: translate(30%, 20%);
@@ -108,7 +115,7 @@ body{
     font-size: 25px;
     position:relative;
     }
-    .abcont img{
+.abcont img{
         box-shadow: black;
     }
 
